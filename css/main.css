@@ -1,0 +1,98 @@
+/*Quita los margenes de todo el documento*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*le da el tamaño de toda la pagina*/
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+/*Crea el banner principal*/
+
+header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background: black;
+}
+
+/*Estilo de la letra*/
+
+header h1 {
+    color: white;
+    font: oblique bold 120% cursive;
+    /*cambia el texto a cursiva y comic sans*/
+    line-height: 148px;
+    margin-left: 414px;
+}
+
+
+/*Posesionar el logo y darle tamaño*/
+
+header .logo {
+    position: absolute;
+    top: -5px;
+    left: 725px;
+    ;
+    background-image: url("../images/triki.jpg");
+    background-repeat: no-repeat;
+    height: 98px;
+    width: 100px;
+    background-position-x: 172px;
+}
+
+/*Darle imagen de fondo a la página*/
+
+body {
+    background-image: url("../images/triqui.png");
+    background-size: 100%;
+    position: relative;
+}
+
+/*Área de juego principal*/
+
+#board {
+    background: radial-gradient(#001c27 -6%, #246078 42%, #4594b2 64%);
+    width: 172px;
+    height: 206px;
+    margin-top: -201px;
+    margin-left: 648px;
+}
+
+ul {
+    list-style: none;
+    /*quitar punto de las listas*/
+}
+
+ul li {
+    display: inline-block;
+    /*pone la lista como arreglo*/
+    margin: 2px;
+}
+
+li button {
+    /*tamaño de los botones*/
+    width: 50px;
+    height: 50px;
+    background: grey;
+}
+
+/*Posesionar el primer elemento*/
+
+li:first-child {
+    margin-top: 24px;
+}
+
+.information {
+    background: transparent;
+    width: 400px;
+    height: 206px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 159px;
+}
